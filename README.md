@@ -39,19 +39,19 @@ Connects to the MovieDiary Spring Boot backend API.
 ## Screenshots
 
 ### Home Page
-![Home](screenshots/home.png)
+![Home](screenshots/Homepage.jpeg)
 
 ### Movie Details
-![Movie Details](screenshots/movie-details.png)
+![Movie Details](screenshots/Movie-details.jpeg)
 
 ### Watchlist
-![Watchlist](screenshots/watchlist.png)
+![Watchlist](screenshots/Watchlist.jpeg)
 
 ### Diary
-![Diary](screenshots/diary.png)
+![Diary](screenshots/Diary.jpeg)
 
 ### Profile
-![Profile](screenshots/profile.png)
+![Profile](screenshots/Profile.jpeg)
 
 ## Author
 
