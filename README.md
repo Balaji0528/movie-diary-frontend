@@ -36,6 +36,23 @@ npm run dev
 
 Connects to the MovieDiary Spring Boot backend API.
 
+## Screenshots
+
+### Home Page
+![Home](screenshots/home.png)
+
+### Movie Details
+![Movie Details](screenshots/movie-details.png)
+
+### Watchlist
+![Watchlist](screenshots/watchlist.png)
+
+### Diary
+![Diary](screenshots/diary.png)
+
+### Profile
+![Profile](screenshots/profile.png)
+
 ## Author
 
 Balaji
