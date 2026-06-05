@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import API from '../Services/api';
-import Navbar from './Navbar';
 import { FaRegStar, FaStar, FaStarHalfAlt } from 'react-icons/fa';
 import toast from 'react-hot-toast';
+import NavBar from './NavBar';
 
 function DiaryForm() {
     const { tmdbId } = useParams();
@@ -85,7 +85,7 @@ function DiaryForm() {
 
     return (
         <div className="min-h-screen bg-[#14181c] text-white">
-            <Navbar />
+            <NavBar/>
 
             {loading && (
                 <div className="max-w-5xl mx-auto px-6 py-10">

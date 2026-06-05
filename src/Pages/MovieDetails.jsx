@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import API from "../Services/api";
-import NavBar from "../components/NavBar";
 import MovieDetailsSkeleton from "../Components/skeletons/MovieDetailsSkeleton";
 import toast from "react-hot-toast";
+import NavBar from "../Components/NavBar";
 
 function MovieDetails() {
     const { tmdbId } = useParams();
@@ -104,7 +104,7 @@ function MovieDetails() {
     if (error || !movie) {
         return (
             <div className="min-h-screen bg-[#14181c] text-white">
-                <NavBar />
+                <NavBar/>
 
                 <div className="max-w-7xl mx-auto px-8 py-10">
                     <p className="text-red-500">{error || "Movie not found."}</p>

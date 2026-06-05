@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import API from "../Services/api";
-import NavBar from "../components/NavBar";
+import NavBar from "../Components/NavBar";
 import { Link } from "react-router-dom";
 import DiarySkeleton from "../Components/skeletons/DiarySkeleton";
 import toast from "react-hot-toast";

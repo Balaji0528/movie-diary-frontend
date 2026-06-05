@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import API from "../Services/api";
-import NavBar from "../components/NavBar";
+import NavBar from "../Components/NavBar";
 import MovieCard from "../Components/MovieCard";
 import MovieCardSkeleton from "../Components/skeletons/MovieCardSkeleton";
 
